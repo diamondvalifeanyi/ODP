@@ -1,0 +1,258 @@
+/* .container {
+    display: grid;
+    grid-template-columns: 250px 50px;
+    grid-template-rows: 50px 50px;
+    grid-auto-rows: 100px;
+    /* column-gap: 10px;
+    row-gap: 50px; */
+    /* gap: 90px;
+  } */
+
+  /* styles.css */
+
+ /* .container {
+    display: grid;
+    grid-template: 50px 50px / 50px 50px 50px;
+  } */
+
+  /* .container {
+    display: grid;
+    grid-template: 50px 50px / 250px 50px 50px;
+  } */
+
+  /* .container > div {
+    border: 1px solid blue;
+  }  */
+
+  /* .container {
+    display: inline-grid;
+    grid-template: 50px 50px 50px 100px 70px / 60px 50px 100px 50px 50px;
+    background-color: lightblue; 
+  }
+  
+  .room {
+    border: 1px solid;
+    font-size: 50%;
+    text-align: center;
+  }
+  
+  #living-room {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  
+  #kitchen {
+    grid-column: 2 / 6;
+    grid-row: 5 / 6;
+  }
+  
+  #bedroom {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  
+  #bathroom {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  }
+  
+  #closet {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 5;
+  } */
+   
+
+  /* .container {
+    display: inline-grid;
+    grid-template: 40px 40px 40px 40px 40px / 40px 40px 40px 40px 40px;
+    background-color: lightblue; 
+    grid-template-areas:
+      "living-room living-room living-room living-room living-room"
+      "living-room living-room living-room living-room living-room"
+      "bedroom bedroom bathroom kitchen kitchen"
+      "bedroom bedroom bathroom kitchen kitchen"
+      "closet closet bathroom kitchen kitchen"    
+  }
+  
+  .room {
+    border: 1px solid;
+    font-size: 50%;
+    text-align: center;
+  }
+  
+  #living-room {
+     grid-area:  living-room;
+  }
+  
+  #kitchen {
+    grid-area: kitchen;
+  }
+  
+  #bedroom {
+    grid-area: bedroom;
+  }
+  
+  #bathroom {
+    grid-area: bathroom;
+  }
+  
+  #closet {
+    grid-area: closet;
+  } */
+
+  /* .grid-container {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    /* grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr) repeat(3, 1fr); */
+
+    /* grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 125px) repeat(3, 1fr);
+  }
+  
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
+  
+  img {
+    height: 60px;
+  } */ 
+
+  /* .grid-container {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    grid-template-rows: repeat(2, min(200px, 50%));
+    grid-template-columns: repeat(5, max(120px, 15%));
+  }
+  
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
+  
+  img {
+    height: 60px;
+  } */
+
+  /* .grid-container {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, minmax(150px, 200px));
+  }
+  
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
+  
+  img {
+    height: 60px;
+  } */
+
+  /* .grid-container {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, clamp(150px, 20%, 200px));
+  }
+  
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
+  
+  img {
+    height: 60px;
+  } */
+
+  .grid-container {
+    resize: both;
+    overflow: auto;
+    display: grid;
+    gap: 4px;
+    padding: 4px;
+    border: 1px solid grey;
+    background-color: skyblue;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  }
+  
+  .grid-item {
+    background-color: #444;
+    text-align: center;
+    color: #ddd;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+  }
+  
+  p {
+    margin: 12px auto 24px;
+  }
+  
+  img {
+    height: 60px;
+  }

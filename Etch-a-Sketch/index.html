@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="etch-text">HOVER ETCH-A-SKETCH</h1>
+    <div class="buttons">
+        <button class="choose-color" data-color="black" type="button">Black</button>
+        <button class="choose-color" data-color="rainbow" type="button">Rainbow</button>
+        <button class="choose-color" data-color="gray" type="button">Gray</button>
+        <button class="choose-color" data-color="eraser" type="button">Eraser</button>
+        <button class="choose-color">Choose: <input type="color" value="#008b8b" id="input-color"></button>
+</div>
+    <div class="main-frame">
+        <div class="frame"></div>
+    </div>
+    <div class="sketch-options">
+        <button class="clear" type="button">clear</button>
+        <div class="size-container">
+            <p>Pixel Size</p>
+            <input type="range" min="3" max="100" value="15" id="size-range" class="slider">
+            <p>Smallest to Largest</p>
+        </div>
+    </div>
+    <p>This Project is Part of <a href="https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project">
+        The Odin Project Curriculum</a></p>
+        <script src="index.js"></script>
+</body>
+</html>

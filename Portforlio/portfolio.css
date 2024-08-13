@@ -1,0 +1,239 @@
+body{
+    background-color: #083344;
+}
+
+.top-bar {
+    /* background-color: #dc2626; */
+    display: grid;
+    height: 20vh;
+    grid-template-columns: repeat(3, 1fr);
+    /* width: 90vw; */
+}
+
+.top-left {
+    /* background-color: blue; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.logo {
+    background-size: auto;
+    height: 60%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the text container within the .top-left container */
+    margin-left: 13px; /* Adjusts the space between the image and text */
+}
+
+.myName {
+    font-family: Neue Montreal, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fafafa;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.role {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 0;
+    /* padding-bottom: 5px; */
+    color: #71717a;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+}
+
+/* .top-mid {
+    background-color: black;
+    background-color: #030712;
+    background-color: #111827;
+    height: 50px;
+    display: flex;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 35px;
+    border-radius: 50px;
+} */
+
+.toggle {
+    /* background-color: #083344; */
+    /* background-color: rgba(8, 51, 68, 0.2); */
+    flex-direction: column; 
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 60px; 
+    width: 42%;
+    transition: background-color 0.3s;
+    
+
+}
+
+a {
+    text-decoration: none; /* Removes the default underline from links */
+    display: inline-block; /* Ensures the link behaves correctly with block elements inside */
+}
+
+
+
+.work {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 10px 20px; 
+    font-family: Arial, sans-serif;
+    border-radius: 50px;
+    font-size: 1em;
+    text-align: center; /* Center text inside the div */
+    display: inline-block; 
+    /* transition: background-color 0.3s; */
+    /* box-shadow: 0 -10px 25px rgb(186, 230, 253, 0.5); */
+}
+
+a:hover .work {
+    /* background-color: #374151; */
+    background-color: rgba(55, 65, 81, 0.3);
+    border-radius: 50px; 
+    transition: background-color 0.3s;
+}
+
+ .top-mid:hover {
+    /* background-color: #cbd5e1; */
+    background-color:  rgb(17, 24, 39, 0.6);
+    background-color:  rgba(93, 116, 167, 0.6);
+    transition: background-color 0.3s;
+
+}
+
+.toggle2 {
+    /* background-color: #083344; */
+    /* background-color: rgba(8, 51, 68, 0.2); */
+    flex-direction: column; 
+    margin-top: 5px;
+    margin-left: 19px;
+    margin-bottom: 5px;
+    border-radius: 60px; 
+    width: 42%;
+}
+
+.info {
+    /* background-color: #4CAF50; */
+    color: white; /* Text color */
+    padding: 10px 25px; 
+    font-family: Arial, sans-serif;
+    border-radius: 50px;
+    font-size: 1em;
+    text-align: center; 
+    display: inline-block; 
+}
+
+a:hover .info {
+    /* background-color: #374151; */
+    background-color: rgba(55, 65, 81, 0.3);
+    border-radius: 50px; 
+    transition: background-color 0.3s;
+}
+
+
+.top-mid {
+    background-color: #111827;
+    background-color: #304c8a;
+    height: 50px;
+    display: flex;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 35px;
+    border-radius: 50px;
+    position: relative; 
+  }
+
+ .indicator {
+    background-color: rgb(217, 242, 253);
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    margin-left: 30px;
+    top: -3px; 
+    /* left: 30px;  */
+    box-shadow: 0 -15px 15px rgba(90, 252, 230, 0.5); 
+    box-shadow: -1px -1px 30px 8px  rgb(217, 242, 253, 0.5); 
+    border-radius: 50px;
+ } 
+
+ .right1 {
+    /* background-color: #064e3b; */
+    height: 45px;
+    width: 8%;
+    position: absolute;
+   justify-content: center;
+    margin-left: 80%;
+    margin-top: 35px;
+    border-radius: 100px;
+}
+
+.linkedin {
+    color: white;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 18px;
+    padding-right: 4px;
+    /* gap: px; */
+}
+
+.arrow1 {
+    margin-top: 13px;
+    position: absolute;
+}
+
+.right2 {
+    /* background-color: #064e3b; */
+    /* background-color: red; */
+    height: 45px;
+    width: 7.5%;
+    position: absolute;
+   justify-content: center;
+    margin-left: 88.5%;
+    margin-top: 35px;
+    border-radius: 100px;
+}
+
+.resume {
+    color: white;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 20px;
+    padding-right: 4px;
+}
+
+.arrow2 {
+    margin-top: 13px;
+    position: absolute;
+}
+
+.right1:hover {
+    background-color: rgb(46, 139, 87, 0.09); 
+    transform: scale(1); 
+    cursor: pointer; 
+}
+
+.right2:hover {
+    background-color: rgb(46, 139, 87, 0.09); 
+    transform: scale(1); 
+    cursor: pointer; 
+}
+
+
+
+
+

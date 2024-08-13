@@ -1,0 +1,107 @@
+body {
+    /* background-color:rgb(8, 80, 1); */
+    background-image: url(assets/IMG-sunniepieWA00002.jpg);
+    background-size: cover; /* Makes the image cover the whole body */
+    background-position: center; /* Centers the image within the body */
+    background-repeat: no-repeat; /* Ensures the image does not repeat */
+    height: 100vh; /* Sets the height of the body to the full viewport height */
+    margin: 0;
+}
+
+.one {
+    /* background-color: rgb(7, 211, 7); */
+    background-color: aliceblue;
+    height: 100%;
+    width: 50%;
+    margin-left: 55%;
+}
+
+.formm {
+    padding-top: 3%;
+}
+
+.oneW {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 30px;
+    margin-right: 7%;
+}
+
+#firstName  {
+    /* background-color: yellow; */
+    margin-left: 13%;
+    margin-top: 1%;
+}
+
+#lastName {
+    /* background-color: yellow; */
+    margin-left: 15.5%;
+}
+
+.label1 {
+    margin-left: 13%;
+}
+
+.label2 {
+    margin-left: 30%;
+}
+
+#phone {
+    margin-left: 35%;
+}
+
+#pass {
+    margin-left: 31%;
+}
+
+
+/* input {
+  border: 2px solid #000; 
+  margin-bottom: 0px;
+  padding: 0px;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+} */
+
+
+/* .toggle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-label {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.toggle-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.toggle-input:checked + .toggle-label + .toggle-content {
+    display: block;
+} */
+
+

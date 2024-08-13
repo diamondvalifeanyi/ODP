@@ -1,0 +1,72 @@
+body {
+    background-color: chartreuse;
+    box-sizing: border-box;
+}
+
+.holdingbox {
+    height: 25vh;
+    width: 75vw;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 13%;
+    margin-top: 13%;
+    padding: 20px;
+}
+
+ .addme {
+    width: 80px;
+    background-color: grey;
+    border-radius: 50px;
+}
+.showlib {
+    background-color: grey;
+    height: 15vh;
+    width: 75vw;
+    /* background-color: aliceblue; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.btn2 {
+    width: 60px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    margin-left: 47%;
+    margin-top: 3%;
+    border-radius: 50px;
+}
+
+.holdingbox2 {
+    height: 45vh;
+    width: 20vw;
+    background-color: wheat;
+    display: grid;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-left: 38%;
+    margin-top: 7%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.addme2 {
+    width: 80px;
+    background-color: grey;
+    border-radius: 50px;
+    /* position: absolute; */
+    /* top: 0; */
+    margin-left: 53%;
+    margin-top: 28%;
+}
