@@ -101,3 +101,11 @@ Algorithm//
 // https://www.khanacademy.org/computing/computer-science/algorithms
 // https://www.theodinproject.com/lessons/javascript-common-data-structures-and-algorithms
 
+git 
+// https://dangitgit.com/
+// https://courses.kevinpowell.co/conquering-responsive-layouts
+// https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/
+// https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/
+
+
+
